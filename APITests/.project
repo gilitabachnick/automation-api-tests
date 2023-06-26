@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>unitest</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Debug.py</name>
+			<type>1</type>
+			<location>C:/MyWork/PytonAutoTest/CustomMetaData.py</location>
+		</link>
+		<link>
+			<name>XML/XSDfirst.xml</name>
+			<type>1</type>
+			<location>C:/Users/adi.miller/workspace/unitest/XSDfirst.xml</location>
+		</link>
+		<link>
+			<name>ini/ProdParams.ini</name>
+			<type>1</type>
+			<location>C:/Users/renan.bresler.KALTURA/eclipse-workspace/automation-api-tests/APITests/ini/ProdParams.ini</location>
+		</link>
+		<link>
+			<name>ini/TestingParams.ini</name>
+			<type>1</type>
+			<location>C:/Users/renan.bresler.KALTURA/eclipse-workspace/automation-api-tests/APITests/ini/TestingParams.ini</location>
+		</link>
+	</linkedResources>
+</projectDescription>

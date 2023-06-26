@@ -1,0 +1,34 @@
+Run,TestName,query,Entries,Caption,Metadata,CuePoints
+yes,1_UnifiedSearch_the_tower_exact,the tower;exact,1_6l513es6;1_faadj5b6;1_sd7chgac,;,;,;;id=1_if9p1rvb
+yes,2_UnifiedSearch_the_moon_exact,the moon;exact,1_faadj5b6;1_wwbwlg5d;1_9s14rmdy;1_ubskxsib;1_s82y3roe,;,;,;;;id=1_kg3gjsgz;id=1_wce285sv
+yes,3_UnifiedSearch_Black_exact,Black;exact,1_9s14rmdy;1_s82y3roe,;,;,;id=1_wce285sv
+yes,4_UnifiedSearch_towe_partial,towe;partial,1_6l513es6;1_faadj5b6;1_ofqmprvq;1_wwbwlg5d;1_9s14rmdy;1_ubskxsib;1_sd7chgac;1_8zdgr4ky,;;startsAt=120000:endsAt=151000:captionAssetId=1_sgweveht;;startsAt=120000:endsAt=151000:captionAssetId=1_nr29txvp,;,;;;;;id=1_kg3gjsgz;id=1_if9p1rvb;id=1_8xabksge$id=1_wfjdgva8
+yes,5_UnifiedSearch_the_moon_partial,the moon;partial,1_6l513es6;1_faadj5b6;1_ofqmprvq;1_wwbwlg5d;1_9s14rmdy;1_8zdgr4ky;1_ubskxsib;1_s82y3roe;1_sd7chgac,startsAt=5500:endsAt=6500:captionAssetId=1_pmcapzsc;startsAt=5500:endsAt=6500:captionAssetId=1_9ny15acg;startsAt=120000:endsAt=151000:captionAssetId=1_sgweveht;startsAt=5500:endsAt=6500:captionAssetId=1_ip7xs00a;startsAt=120000:endsAt=151000:captionAssetId=1_nr29txvp,;xpath=/* local-name()='metadata' /* local-name()='Text1' ;xpath=/* local-name()='metadata' /* local-name()='Text1' ;xpath=/* local-name()='metadata' /* local-name()='List1' $xpath=/* local-name()='metadata' /* local-name()='Text1' ,;;;;;id=1_wfjdgva8;id=1_xpzz8chv$id=1_kg3gjsgz;id=1_wce285sv;id=1_g5tajncq$id=1_if9p1rvb
+yes,6_UnifiedSearch_Black_partial,Black;partial,1_6l513es6;1_ofqmprvq;1_9s14rmdy;1_s82y3roe;1_wwbwlg5d,;;;;startsAt=5500:endsAt=6500:captionAssetId=1_ip7xs00a,;,;;;id=1_wce285sv
+yes,7_UnifiedSearch_towell_exact,towell;exact,1_ofqmprvq;1_wwbwlg5d;1_ubskxsib,;,;,;;id=1_kg3gjsgz
+yes,8_UnifiedSearch_is_exact,is;exact,1_6l513es6;1_faadj5b6;1_ofqmprvq;1_9s14rmdy;1_8zdgr4ky;1_s82y3roe;1_sd7chgac,;,;xpath=/* local-name()='metadata' /* local-name()='Text1' ,;;;;id=1_wfjdgva8;id=1_wce285sv;id=1_if9p1rvb
+no,9_UnifiedSearch_is_partial,is;partial,None,;,;,
+yes,10_UnifiedSearch_The_tower_start,The tower;start,1_6l513es6;1_faadj5b6;1_sd7chgac,;,;,;;id=1_if9p1rvb
+yes,11_UnifiedSearch_The_tow_start,The tow;start,1_6l513es6;1_faadj5b6;1_ofqmprvq;1_sd7chgac,;,;,;;;id=1_if9p1rvb
+yes,12_UnifiedSearch_the_moon_start,the moon;start,1_9s14rmdy;1_s82y3roe,;,;,;id=1_wce285sv
+yes,13_UnifiedSearch_town_exact,town;exact,1_faadj5b6;1_ofqmprvq;1_9s14rmdy,;startsAt=120000:endsAt=151000:captionAssetId=1_sgweveht;startsAt=120000:endsAt=151000:captionAssetId=1_nr29txvp,;,;
+yes,14_UnifiedSearch_Champ_partial,Champ;partial,1_6l513es6;1_faadj5b6;1_9s14rmdy;1_sd7chgac,startsAt=5500:endsAt=6500:captionAssetId=1_pmcapzsc;startsAt=5500:endsAt=6500:captionAssetId=1_9ny15acg;startsAt=120000:endsAt=151000:captionAssetId=1_nr29txvp,;,;;;id=1_if9p1rvb
+yes,15_UnifiedSearch_Friend_partial,Friend;partial,1_6l513es6;1_faadj5b6;1_wwbwlg5d;1_ubskxsib,startsAt=5500:endsAt=6500:captionAssetId=1_pmcapzsc;startsAt=5500:endsAt=6500:captionAssetId=1_9ny15acg;startsAt=5500:endsAt=6500:captionAssetId=1_ip7xs00a,;,;;;id=1_xpzz8chv
+yes,16_UnifiedSearch_Moonlight_exact,Moonlight;exact,1_faadj5b6;1_wwbwlg5d,;,;,;
+yes,17_UnifiedSearch_blacklisted_start,blacklisted;start,None,,,
+yes,18_UnifiedSearch_blacklisted_partial,blacklisted;partial,1_6l513es6,;,;,;
+yes,19_UnifiedSearch_bugs_partial,bugs;partial,1_faadj5b6;1_wwbwlg5d;1_9s14rmdy;1_ofqmprvq;1_6l513es6,;,;,;
+yes,20_UnifiedSearch_bugs_start,bugs;start,1_faadj5b6;1_wwbwlg5d;1_9s14rmdy;1_ofqmprvq;1_6l513es6,;,;,;
+yes,21_UnifiedSearch_bugs_exact,bugs;exact,1_faadj5b6;1_wwbwlg5d;1_9s14rmdy;1_ofqmprvq;1_6l513es6,;,;,;
+yes,22_UnifiedSearch_champions_exact,champions;exact,1_6l513es6;1_faadj5b6;1_9s14rmdy;1_sd7chgac,startsAt=5500:endsAt=6500:captionAssetId=1_pmcapzsc;startsAt=5500:endsAt=6500:captionAssetId=1_9ny15acg;startsAt=120000:endsAt=151000:captionAssetId=1_nr29txvp,;,;;;id=1_if9p1rvb
+yes,23_UnifiedSearch_Strawberry_exact,Strawberry;exact,1_faadj5b6;1_ofqmprvq,startsAt=0:endsAt=5500:captionAssetId=1_3n3jy9j6;startsAt=0:endsAt=5500:captionAssetId=1_cc08y5rv,;,;
+yes,24_UnifiedSearch_Saturn_exact,Saturn;exact,1_faadj5b6;1_ofqmprvq,;,xpath=/* local-name()='metadata' /* local-name()='List1' ,;
+yes,25_UnifiedSearch_sun_exact,sun;exact,1_ofqmprvq;1_wwbwlg5d;1_s82y3roe;1_sd7chgac,;,xpath=/* local-name()='metadata' /* local-name()='List1' ;xpath=/* local-name()='metadata' /* local-name()='Text1' ,;;id=1_wce285sv;id=1_if9p1rvb
+yes,26_UnifiedSearch_sea_of_green_exact,sea of green;exact,1_wwbwlg5d;1_9s14rmdy,;,xpath=/* local-name()='metadata' /* local-name()='Text1' ;xpath=/* local-name()='metadata' /* local-name()='Text1' ,;
+yes,27_UnifiedSearch_sea_of_green_partial,sea green;partial,1_ofqmprvq;1_wwbwlg5d;1_9s14rmdy;1_8zdgr4ky;1_ubskxsib,startsAt=120000:endsAt=151000:captionAssetId=1_sgweveht,;xpath=/* local-name()='metadata' /* local-name()='Text1' ;xpath=/* local-name()='metadata' /* local-name()='Text1' ,;;;id=1_wfjdgva8;id=1_kg3gjsgz
+yes,28_UnifiedSearch_sail_partial,sail;partial,1_ofqmprvq;1_wwbwlg5d,startsAt=120000:endsAt=151000:captionAssetId=1_sgweveht,;xpath=/* local-name()='metadata' /* local-name()='Text1' ,;
+yes,29_UnifiedSearch_1_6l513es6_exact,1_6l513es6;exact,1_6l513es6;1_faadj5b6;1_wwbwlg5d,;,;xpath=/* local-name()='metadata' /* local-name()='IdList1' ;xpath=/* local-name()='metadata' /* local-name()='IdList1' ,;
+yes,30_UnifiedSearch_1_6l513es6_partial,1_6l513es6;partial,1_faadj5b6;1_wwbwlg5d,;,xpath=/* local-name()='metadata' /* local-name()='IdList1' ;xpath=/* local-name()='metadata' /* local-name()='IdList1' ,;
+yes,31_UnifiedSearch_Its_a_new_dawn_exact,It's a new dawn;exact,1_8zdgr4ky;1_gwbw12ne;1_eehl9kxp,;,;,id=1_wfjdgva8;id=1_fxcmvcev;id=1_udjmlxd5
+yes,32_UnifiedSearch_a_new_life_for_me_exact,a new life for me;exact,1_sd7chgac,;,;,id=1_g5tajncq
+yes,33_UnifiedSearch_Queen_partial,Queen;partial,1_s82y3roe;1_sd7chgac;1_gwbw12ne;1_eehl9kxp,;,;,id=1_xwzucpwl;id=1_g5tajncq;id=1_fxcmvcev;id=1_udjmlxd5

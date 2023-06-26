@@ -1,0 +1,16 @@
+
+1
+00:00:01,000 --> 00:00:06,000
+1. text with encoded and decoded characters
+decoded & and encoded &amp; decoded > and encoded &gt; decoded < and encoded &lt;
+
+2
+00:00:07,000 --> 00:00:13,000
+2. text with encoded only
+encoded &amp; encoded &gt; encoded &lt;
+
+
+3
+00:00:14,000 --> 00:00:23,000
+3. text with decoded only
+decoded & decoded > decoded <

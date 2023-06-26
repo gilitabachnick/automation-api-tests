@@ -1,0 +1,62 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="metadata">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element id="md_DCCED193-38FB-6F96-493F-E246A736F14B" name="Auto1" minOccurs="0" maxOccurs="1" type="textType">
+          <xsd:annotation>
+            <xsd:documentation>auto1 field for automation tests</xsd:documentation>
+            <xsd:appinfo>
+              <label>auto1</label>
+              <key>auto1</key>
+              <searchable>true</searchable>
+              <timeControl>false</timeControl>
+              <description>auto1 field</description>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element id="md_1E83BA24-7BB4-779C-0C17-E248F66B9DD8" name="AutoDate2" minOccurs="0" maxOccurs="1" type="dateType">
+          <xsd:annotation>
+            <xsd:documentation>autoDate2 field for automation testsing</xsd:documentation>
+            <xsd:appinfo>
+              <label>autoDate2</label>
+              <key>autoDate2</key>
+              <searchable>false</searchable>
+              <timeControl>true</timeControl>
+              <description>autoDate2 field</description>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element id="md_1FF80843-598F-F69B-7BDA-E24B23775032" name="Auto3" minOccurs="0" maxOccurs="unbounded" type="textType">
+          <xsd:annotation>
+            <xsd:documentation>auto3 field for automation testing</xsd:documentation>
+            <xsd:appinfo>
+              <label>auto3</label>
+              <key>auto3</key>
+              <searchable>true</searchable>
+              <timeControl>false</timeControl>
+              <description>auto3 field</description>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:complexType name="textType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string"/>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="dateType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:long"/>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="objectType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string"/>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="listType">
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>  
+</xsd:schema>

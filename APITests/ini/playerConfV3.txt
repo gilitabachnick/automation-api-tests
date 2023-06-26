@@ -1,0 +1,8 @@
+{
+	"disableUserCache": false,
+	"plugins": {},
+	"playback": {},
+	"provider": {
+		"env": {}
+	}
+}

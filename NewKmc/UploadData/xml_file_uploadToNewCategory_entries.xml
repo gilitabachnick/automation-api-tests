@@ -1,0 +1,40 @@
+<mrss xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingestion.xsd">
+<channel>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>Kaltura Site Video New Cat</name>
+<description>video</description>
+<categories>
+<category>New Category Video</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>Kaltura Site Audio New Cat</name>
+<description>music</description>
+<categories>
+<category>New Category Audio</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+</channel>
+</mrss>

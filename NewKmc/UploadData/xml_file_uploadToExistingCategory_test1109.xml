@@ -1,0 +1,76 @@
+<mrss xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingestion.xsd">
+<channel>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1109_1</name>
+<description>music</description>
+<categories>
+<category>Existing  Entries - DoNotTouch</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets><!--comment-->
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1109_2</name>
+<description>music</description>
+<categories>
+<category>Existing  Entries - DoNotTouch</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets><!--comment-->
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1109_3</name>
+<description>video</description>
+<categories>
+<category>Existing  Entries - DoNotTouch</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1109_4</name>
+<description>video</description>
+<categories>
+<category>Existing  Entries - DoNotTouch</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item><!--comment-->
+</channel>
+</mrss>

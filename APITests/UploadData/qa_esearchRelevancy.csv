@@ -1,0 +1,35 @@
+Run,TestName,query,expected
+yes,1_RelevancySearch,dream;exact,0_prhrx6cr;0_riy9qg5d;0_f9bi9azw
+yes,2_RelevancySearch,light;exact,0_riy9qg5d;0_ynboqien;0_f9bi9azw
+yes,3_RelevancySearch,love;exact,0_ynboqien;0_2tipmp51;0_f9bi9azw
+yes,4_RelevancySearch,trust;exact,0_2tipmp51;0_lq7xzy39;0_f9bi9azw
+yes,5_RelevancySearch,come;exact,0_lq7xzy39;0_s2zanezd;0_f9bi9azw
+yes,6_RelevancySearch,need;exact,0_s2zanezd;0_9pmuzqzp;0_f9bi9azw
+yes,7_RelevancySearch,known;exact,0_9pmuzqzp;0_f9bi9azw
+yes,8_RelevancySearch,mercury;exact,0_vl294s21;0_ywx5i68w;0_6xo887gg
+yes,9_RelevancySearch,take me by the hand;exact,0_prhrx6cr;0_6xo887gg;0_ywx5i68w;0_vl294s21;0_mwmkhxl3
+yes,10_RelevancySearch,user and password;partial,0_5wdb71v7;0_eu0i4ji4;0_f141r6az;0_f9bi9azw
+yes,11_RelevancySearch,password and user;partial,0_5wdb71v7;0_eu0i4ji4;0_f141r6az;0_f9bi9azw
+yes,12_RelevancySearch,password user;partial,0_f141r6az;0_5wdb71v7;0_eu0i4ji4
+yes,13_RelevancySearch,user password???;partial,0_f141r6az;0_5wdb71v7;0_eu0i4ji4
+yes,14_RelevancySearch,coffee with sugar;partial,0_5wdb71v7;0_eu0i4ji4;0_f141r6az
+yes,15_RelevancySearch,sugar coffee;partial,0_f141r6az;0_5wdb71v7;0_eu0i4ji4
+yes,16_RelevancySearch,coffee sugar;partial,0_f141r6az;0_5wdb71v7;0_eu0i4ji4
+yes,17_RelevancySearch,чебурашка гена;partial,0_tudup7b5;0_nmqq2gdk;0_eackeniq
+yes,18_RelevancySearch,чебурашка и гена;partial,0_eackeniq;0_tudup7b5;0_nmqq2gdk
+yes,19_RelevancySearch,чебурашка не гена;partial,0_nmqq2gdk;0_tudup7b5;0_eackeniq
+yes,20_RelevancySearch,погоды плохой погоды;partial,0_tudup7b5;0_eackeniq;0_nmqq2gdk
+yes,21_RelevancySearch,погоды нет плохой;partial,0_nmqq2gdk;0_eackeniq;0_tudup7b5
+yes,22_RelevancySearch,у погоды нет плохой погоды;partial,0_eackeniq;0_nmqq2gdk;0_tudup7b5
+yes,23_RelevancySearch,Опять любовь позвала;partial,0_tudup7b5;0_nmqq2gdk;0_eackeniq
+yes,24_RelevancySearch,любовь;partial,0_nmqq2gdk;0_tudup7b5;0_eackeniq
+yes,25_RelevancySearch,Опять любовь собой позвала;partial,0_nmqq2gdk;0_eackeniq;0_tudup7b5
+yes,26_RelevancySearch,Опять нас любовь за собой позвала;partial,0_eackeniq;0_nmqq2gdk;0_tudup7b5
+yes,27_RelevancySearch,España en imagenes;partial,0_yllcs49u;0_64va9fd1;0_x729yv04
+yes,28_RelevancySearch,España imagenes;partial,0_64va9fd1;0_yllcs49u;0_x729yv04
+yes,29_RelevancySearch,imagenes españa;partial,0_64va9fd1;0_yllcs49u;0_x729yv04
+yes,30_RelevancySearch,imagenes de españa;partial,0_64va9fd1;0_yllcs49u;0_x729yv04
+yes,31_RelevancySearch,amanecer por ti;partial,0_yllcs49u;0_x729yv04;0_64va9fd1
+yes,32_RelevancySearch,sera hasta el amanecer por ti;partial,0_x729yv04;0_yllcs49u;0_64va9fd1
+yes,33_RelevancySearch,sera amanecer;partial,0_64va9fd1;0_x729yv04;0_yllcs49u
+yes,34_RelevancySearch,sera el amanecer;partial,0_64va9fd1;0_x729yv04;0_yllcs49u

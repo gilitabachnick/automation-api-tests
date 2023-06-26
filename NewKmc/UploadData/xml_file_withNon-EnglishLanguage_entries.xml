@@ -1,0 +1,81 @@
+
+<mrss xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingestion.xsd">
+<channel>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>Zuhause</name>
+<description>Homepagevideo mit Musik</description>
+<tags>
+<tag>Homepage</tag>
+<tag>Kreativ</tag>
+</tags>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>الصفحة الرئيسية</name>
+<description>الصفحة الرئيسية الفيديو والموسيقى</description>
+<tags>
+<tag>الصفحة الرئيسية</tag>
+<tag>خلاق</tag>
+</tags>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>自宅</name>
+<description>ホームページビデオ＆音楽</description>
+<tags>
+<tag>ホームページ</tag>
+<tag>創造的な</tag>
+</tags>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>בית</name>
+<description>דף הבית של וידאו ומוסיקה</description>
+<tags>
+<tag>דף הבית</tag>
+<tag>יְצִירָתִי</tag>
+</tags>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+</channel>
+</mrss>

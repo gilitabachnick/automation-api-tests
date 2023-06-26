@@ -1,0 +1,12 @@
+*.cach
+*.pyc
+*.log
+*.metadata*
+*.png
+*.idea
+*.pem
+**/.pytest_cache
+APITests/ini/ProdParams.ini
+APITests/ini/ProdParams-BOFA.ini
+APITests/ini/TestingParams.ini
+APITests/TestsToExecute/

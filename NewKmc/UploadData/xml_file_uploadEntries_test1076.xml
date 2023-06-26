@@ -1,0 +1,64 @@
+<mrss xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingestion.xsd">
+<channel>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1076_1</name>
+<description>music</description>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets><!--comment-->
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1076_2</name>
+<description>music</description>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets><!--comment-->
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1076_3</name>
+<description>video</description>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>test 1076_4</name>
+<description>video</description>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item><!--comment-->
+</channel>
+</mrss>

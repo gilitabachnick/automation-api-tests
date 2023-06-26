@@ -1,0 +1,30 @@
+{
+  "practitest": {
+    "project": {
+      "project_id": "18742",
+      "project_name": "LiveNG"
+    },
+    "fields": {
+      "execute_at_night": "---f-84771",
+      "execute_automated": "---f-84780",
+      "automation_run_only": "---f-90335",
+      "automation_env_field": "---f-90330",
+      "automation_platform_field":  "---f-90327",
+      "is_srt":  "---f-166402",
+      "execution_order":  "---f-166401",
+      "automation_arguments": "---f-90339",
+      "test_automation_arguments": "---f-177070"
+    },
+    "trigger": {
+      "automation_status": "---f-90328",
+      "trigger_field_value": "To Execute"
+    },
+    "processed": {
+      "processed_field_id": "---f-90328",
+      "processed_field_value": "Processed"
+    },
+    "additional_filter": {
+      "execute_automated_value": "yes"
+    }
+  }
+}

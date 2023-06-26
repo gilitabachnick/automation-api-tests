@@ -1,0 +1,236 @@
+Payload,Service,Action
+"""name"": ""test""
+""description"": ""test""
+""providerType"": ""azure""
+""authStrategy"": ""saml""
+""authStrategyConfig"": {""issuer"": ""auth-broker"", ""entryPoint"": ""SAML_START_URL"", ""callbackUrl"": ""SAML_CALLBACK_URL"", ""logoutUrl"": ""LOGOUT_URL"", ""logoutCallbackUrl"": ""LOGOUT_CALLBACK_URL"", cert"": ""MIIC8DCCAdigAwIBAgIQXvt3MjmiRKFG0FYmPCB2ljANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjA5MjExMzEwNDBaFw0yNTA5MjExMzEwNDBaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq8ki0Hm/eD2rfPq6HO8qXNv9KKWpTnXlQo7J9h0JReAoKipLlYUIwA5fxspYZ4p507EKWeaEyAcmUu9MTSS2kiZLBx/H+iboKTvSFLxfDGzaVuoBOoUo/ZLC7H/NHY6pteSklaGOAD07bWcDXP0NWV4zVlHwXzgIWTwd1bPzk6NhUS72njJEvkrV+IgfIr4YT/Ge2GKPvuKQnUk/IqjBf8BeVa2YiLL03Yv+diFxbYRtyroooB4B2JxpYlipndQU4sfSY2Qlut2xFHFcgb0al5nFt3ux4QWEWDOaukyC/NKBoYfHMXsgOh3Auk7M3G93EAAaHWVScf8h0O01YnwvwQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAEAb0v8WuFZRL5cPsr3TBM/fMiVONMH+zuS9W17Tt95b45+xA8oxLIF8jUH16qXKsb0o6gJ+bdjjTTOsOcuLgsKlDkFyoSaryGQgwpMJTvsPqL0Eh2FsstUWEqqZ1twSY9whvhMyW1U3TZrHNIyJ2GoceLVodUqxL9V0rvTqbLdLgc6nse0RJNsImRJ5q007HEVfedeAKEb1B4PWvriSD7+BWJ0RdFUn9KLGXZsr6ZPJ3LLBGt14KeL/7KfmIsAzYtWefqHsYF0DGjZHvaERFVSE0o/3rJ3RtoRpH1ROMmSHf1SO+GvY+7C+PLMwYmQTiI3Z1p8dsjjeAIaWHkaabX""},
+""userGroupMappings"": {}
+""description"": ""string""
+""groupAttributeName"": ""string""
+""userAttributeMappings"": {}
+""ksPrivileges"": ""string""",auth-profile,add
+"{
+  ""id"": ""string""
+}",auth-profile,get
+"{
+  ""groupAttributeName"": ""string"",
+  ""userAttributeMappings"": {},
+  ""userGroupMappings"": {},
+  ""ksPrivileges"": ""string"",
+  ""userIdAttribute"": ""string"",
+  ""id"": ""string"",
+  ""name"": ""string"",
+  ""description"": ""string"",
+  ""providerType"": ""azure"",
+  ""authStrategy"": ""saml"",
+  ""authStrategyConfig"": {
+    ""issuer"": ""string"",
+    ""entryPoint"": ""string"",
+    ""callbackUrl"": ""string"",
+    ""logoutUrl"": ""string"",
+    ""logoutCallbackUrl"": ""string"",
+    ""cert"": {}
+  }
+}",auth-profile,update
+"{
+  ""id"": ""string""
+}",auth-profile,delete
+"{
+  ""filter"": {
+    ""idIn"": [
+      ""string""
+    ],
+    ""providerType"": [
+      ""azure""
+    ],
+    ""createdAtGreaterThanOrEqual"": ""2023-01-23T07:45:21.098Z"",
+    ""createdAtLessThanOrEqual"": ""2023-01-23T07:45:21.098Z"",
+    ""updatedAtGreaterThanOrEqual"": ""2023-01-23T07:45:21.098Z"",
+    ""updatedAtLessThanOrEqual"": ""2023-01-23T07:45:21.098Z""
+  },
+  ""pager"": {
+    ""offset"": 0,
+    ""limit"": 30
+  }
+}",auth-profile,list
+"{
+  ""name"": ""string"",
+  ""appGuid"": ""string"",
+  ""authProfileIds"": [
+    ""string""
+  ],
+  ""appLandingPage"": ""string"",
+  ""appErrorPage"": ""string"",
+  ""description"": ""string"",
+  ""userProfileAttributeMappings"": {},
+  ""appLogoutPage"": ""string"",
+  ""ksPrivileges"": ""string"",
+  ""userIdAttribute"": ""string""
+}",app-subscription,add
+"{
+  ""id"": ""string""
+}",app-subscription,get
+"{
+  ""appGuid"": ""string"",
+  ""authProfileIds"": [
+    ""string""
+  ],
+  ""userProfileAttributeMappings"": {},
+  ""appLandingPage"": ""string"",
+  ""appLogoutPage"": ""string"",
+  ""appErrorPage"": ""string"",
+  ""ksPrivileges"": ""string"",
+  ""userIdAttribute"": ""string"",
+  ""permissionList"": [
+    ""string""
+  ],
+  ""permissionListStatus"": ""allow"",
+  ""id"": ""string"",
+  ""name"": ""string"",
+  ""description"": ""string"",
+  ""status"": ""enabled""
+}",app-subscription,update
+"{
+  ""id"": ""string""
+}",app-subscription,delete
+"{
+  ""filter"": {
+    ""idIn"": [
+      ""string""
+    ],
+    ""appGuid"": ""string"",
+    ""createdAtGreaterThanOrEqual"": ""2023-01-23T07:46:44.237Z"",
+    ""createdAtLessThanOrEqual"": ""2023-01-23T07:46:44.237Z"",
+    ""updatedAtGreaterThanOrEqual"": ""2023-01-23T07:46:44.237Z"",
+    ""updatedAtLessThanOrEqual"": ""2023-01-23T07:46:44.237Z""
+  },
+  ""pager"": {
+    ""offset"": 0,
+    ""limit"": 30
+  }
+}",app-subscription,list
+"{
+  ""id"": ""string""
+}",app-subscription,enable
+"{
+  ""id"": ""string""
+}",app-subscription,disable
+"{
+  ""appLogoutPage"": ""string"",
+  ""permissionList"": [
+    ""string""
+  ],
+  ""permissionListStatus"": ""allow"",
+  ""id"": ""string"",
+  ""name"": ""string"",
+  ""description"": ""string""
+}",app-subscription,createPermissionList
+"{
+  ""appLogoutPage"": ""string"",
+  ""permissionList"": [
+    ""string""
+  ],
+  ""id"": ""string"",
+  ""name"": ""string"",
+  ""description"": ""string""
+}",app-subscription,updatePermissionList
+"{
+  ""appLogoutPage"": ""string"",
+  ""id"": ""string"",
+  ""name"": ""string"",
+  ""description"": ""string""
+}",app-subscription,deletePermissionList
+"{
+  ""appCustomId"": ""string"",
+  ""appType"": ""kms"",
+  ""appCustomName"": ""string""
+}",app-registry,add
+"{
+  ""id"": ""string""
+}",app-registry,get
+"{
+  ""appCustomId"": ""string"",
+  ""appCustomName"": ""string"",
+  ""id"": ""string"",
+  ""appType"": ""kms""
+}",app-registry,update
+"{
+  ""id"": ""string""
+}",app-registry,enable
+"{
+  ""id"": ""string""
+}",app-registry,disable
+"{
+  ""filter"": {
+    ""idIn"": [
+      ""string""
+    ],
+    ""appCustomIdIn"": [
+      ""string""
+    ],
+    ""appCustomNameIn"": [
+      ""string""
+    ],
+    ""status"": ""enabled"",
+    ""createdAtGreaterThanOrEqual"": ""2023-01-23T07:51:39.119Z"",
+    ""createdAtLessThanOrEqual"": ""2023-01-23T07:51:39.119Z"",
+    ""updatedAtGreaterThanOrEqual"": ""2023-01-23T07:51:39.119Z"",
+    ""updatedAtLessThanOrEqual"": ""2023-01-23T07:51:39.119Z""
+  },
+  ""pager"": {
+    ""offset"": 0,
+    ""limit"": 30
+  }
+}",app-registry,list
+"{
+  ""appGuid"": ""string"",
+  ""userId"": ""string"",
+  ""profileData"": {},
+  ""lastLoginData"": {
+    ""lastLoginDate"": ""2023-01-23T08:06:59.457Z"",
+    ""lastLoginType"": ""sso""
+  },
+  ""regOrigin"": ""string"",
+  ""attendanceStatus"": ""string"",
+  ""status"": ""enabled""
+}",user-profile,add
+"[
+  ""string""
+]",user-profile,bulkAdd
+"{
+  ""id"": ""string""
+}",user-profile,get
+"{
+  ""profileData"": {},
+  ""lastLoginData"": {
+    ""lastLoginDate"": ""2023-01-23T08:07:27.599Z"",
+    ""lastLoginType"": ""sso""
+  },
+  ""status"": ""enabled"",
+  ""regOrigin"": ""registration"",
+  ""attendanceStatus"": ""created"",
+  ""id"": ""string""
+}",user-profile,update
+"{
+  ""id"": ""string""
+}",user-profile,delete
+"{
+  ""filter"": {
+    ""idIn"": [
+      ""string""
+    ],
+    ""appGuidIn"": [
+      ""string""
+    ],
+    ""userIdIn"": [
+      ""string""
+    ],
+    ""status"": ""enabled"",
+    ""attendanceStatus"": ""created"",
+    ""createdAtGreaterThanOrEqual"": ""2023-01-23T08:07:50.508Z"",
+    ""createdAtLessThanOrEqual"": ""2023-01-23T08:07:50.508Z"",
+    ""updatedAtGreaterThanOrEqual"": ""2023-01-23T08:07:50.508Z"",
+    ""updatedAtLessThanOrEqual"": ""2023-01-23T08:07:50.508Z""
+  },
+  ""pager"": {}
+}",user-profile,list

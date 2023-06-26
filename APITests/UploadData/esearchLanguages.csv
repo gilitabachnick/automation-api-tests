@@ -1,0 +1,70 @@
+Run,TestName,query,expected
+yes,es_1_Languages,imagen;exact,1_e012qjzj
+yes,es_2_Languages,imagen;partial,1_1m2orj7e;1_1t4pop4x;1_e012qjzj
+yes,es_3_Languages,imágen;partial,1_1m2orj7e;1_1t4pop4x;1_e012qjzj
+yes,es_4_Languages,imagen quedó;partial,1_1m2orj7e;1_1t4pop4x;1_e012qjzj
+yes,es_5_Languages,imágenes quedaron;partial,1_1m2orj7e;1_1t4pop4x;1_e012qjzj
+yes,es_6_Languages,imágenes que quedaron;exact,1_1t4pop4x
+yes,es_7_Languages,Probar;partial,None
+yes,es_8_Languages,España;exact,1_1m2orj7e
+yes,es_9_Languages,espana;exact,1_1m2orj7e
+yes,es_10_Languages,Prueba;exact,1_e4cn216j;1_cnwah2uw
+yes,es_11_Languages,Prueba españa;partial,1_1m2orj7e;1_e4cn216j;1_cnwah2uw
+yes,es_12_Languages,pragmatico;exact,1_mv7focm0
+yes,es_13_Languages,pragmatico;partial,1_e4cn216j;1_mv7focm0
+yes,es_14_Languages,boton sin ojal;exact,1_e4cn216j
+yes,es_15_Languages,boton sin ojal;partial,1_1m2orj7e;1_e4cn216j;1_usgrsxsb;1_cgsi0sar;1_z6c7rcb3
+yes,es_16_Languages,botón ojal;exact,None
+yes,es_17_Languages,botón ojal;partial,1_e4cn216j
+yes,es_18_Languages,campana azul;partial,1_t0c0knsf
+yes,es_19_Languages,campana azulete;partial,1_t0c0knsf;1_usgrsxsb
+yes,es_20_Languages,zaguan forever;partial,1_t0c0knsf;1_usgrsxsb
+yes,ru_1_Languages,ждут;partial,1_1m2orj7e;1_vi1bw6gq
+yes,ru_2_Languages,друг;partial,1_1t4pop4x;1_cgsi0sar;1_vnwo9xxz;1_mgct19r9;1_xjnp5zon;1_r7g25twh;1_cs0us6kx
+yes,ru_3_Languages,ждут;exact,1_1m2orj7e;1_vi1bw6gq
+yes,ru_4_Languages,друг;exact,1_cgsi0sar
+yes,ru_5_Languages,подру;partial,1_xjnp5zon
+yes,ru_6_Languages,дружба;partial,1_r7g25twh;1_cs0us6kx
+yes,ru_7_Languages,актриса??;partial,1_ytp41mas
+yes,ru_8_Languages,актер;partial,1_z6c7rcb3;1_ytp41mas
+yes,ru_9_Languages,крыса;partial,1_z6c7rcb3;1_ytp41mas
+yes,ru_10_Languages,крысы;partial,1_z6c7rcb3;1_ytp41mas
+yes,ru_11_Languages,учился;partial,1_vi1bw6gq;1_9nwv9xgf;1_vnwo9xxz;1_xjnp5zon
+yes,ru_12_Languages,Актёр;partial,1_z6c7rcb3;1_ytp41mas
+yes,ru_13_Languages,выучил;partial,1_z6c7rcb3;1_mgct19r9;1_r7g25twh
+yes,ru_14_Languages,надежда;partial,1_kmlwh1s5;1_9nwv9xgf
+yes,ru_15_Languages,надя;partial,1_1m2orj7e;1_cgsi0sar;1_z6c7rcb3;1_kmlwh1s5;1_9nwv9xgf
+yes,ru_16_Languages,мастер;start,1_z6c7rcb3;1_ytp41mas
+yes,ru_17_Languages,Крепко-накрепко;exact,1_cs0us6kx
+yes,ru_18_Languages,Взлётные огни аэродромов;partial,1_cgsi0sar
+yes,ru_19_Languages,Надо быть;partial,1_1m2orj7e;1_z6c7rcb3
+yes,ru_20_Languages,пиявка лягушка;partial,1_xjnp5zon
+yes,en_1_Languages,Queen Elizabeth;partial,1_6z1ou5gs
+yes,en_2_Languages,English Queen;exact,1_6z1ou5gs
+yes,en_3_Languages,king;partial,1_6z1ou5gs;1_poiymumx
+yes,en_4_Languages,monarch;exact,1_t0c0knsf
+yes,en_5_Languages,remember little;partial,1_poiymumx;1_zd7rwp0q
+yes,en_6_Languages,english monarch;exact,None
+yes,en_7_Languages,diamond;partial,1_usgrsxsb
+yes,en_8_Languages,americas;partial,1_q1mv4g2l
+yes,en_9_Languages,united states america;partial,1_q1mv4g2l
+yes,en_10_Languages,We've;partial,1_t0c0knsf;1_usgrsxsb;1_poiymumx
+yes,en_11_Languages,Weve;partial,1_t0c0knsf;1_usgrsxsb;1_poiymumx
+yes,en_12_Languages,we've done;exact,1_poiymumx
+yes,en_13_Languages,king;partial,1_6z1ou5gs;1_poiymumx
+yes,ch_1_Languages,中国;exact,None
+yes,ch_2_Languages,中国;partial,1_lfskqtxy
+yes,ch_3_Languages,大一;partial,1_dhzhklwq
+yes,ch_4_Languages,一年级;partial,1_dhzhklwq
+yes,ch_5_Languages,大学;start,1_dhzhklwq
+yes,ch_6_Languages,大学;partial,1_dhzhklwq
+yes,ch_7_Languages,上海;partial,1_lfskqtxy;1_dhzhklwq
+yes,ch_8_Languages,软件;partial,1_t0c0knsf;1_ad2rwvff
+yes,ch_9_Languages,软件工程;start,1_t0c0knsf;1_ad2rwvff
+yes,ch_10_Languages,工程师;partial,1_t0c0knsf;1_ad2rwvff
+yes,ch_11_Languages,大;start,1_dhzhklwq
+yes,ch_12_Languages,大;partial,1_dhzhklwq
+yes,ch_13_Languages,中华人民共和国;partial,1_lfskqtxy
+yes,ch_14_Languages,大;exact,1_dhzhklwq
+yes,ch_15_Languages,大学;exact,1_dhzhklwq
+yes,ch_16_Languages,中华人民共和国;exact,1_lfskqtxy

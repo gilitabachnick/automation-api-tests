@@ -1,0 +1,46 @@
+<mrss xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ingestion.xsd">
+<channel>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>Kaltura Site Video few</name>
+<description>video</description>
+<categories>
+<category>Samples>Sample Videos</category>
+<category>Samples>Sample Audio</category>
+<category>Samples>test</category>
+<category>Samples>test1</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+<item>
+<action>add</action>
+<type>1</type>
+<userId>example</userId>
+<name>Kaltura Site Audio few</name>
+<description>music</description>
+<categories>
+<category>Samples>Sample Audio</category>
+<category>Samples>Sample Videos</category>
+<category>Samples>test</category>
+<category>Samples>test1</category>
+</categories>
+<media>
+<mediaType>1</mediaType>
+</media>
+<contentAssets>
+<content>
+<urlContentResource url="https://drive.google.com/uc?id=16LYtCtVbZhHOC4A_x_xgHh09qoFfOV_s&amp;export=download"/>
+</content>
+</contentAssets>
+</item>
+</channel>
+</mrss>

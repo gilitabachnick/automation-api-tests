@@ -1,0 +1,67 @@
+pipeline {
+    agent none
+    options {
+        skipDefaultCheckout(true)
+        buildDiscarder(logRotator(numToKeepStr: '150'))
+        ansiColor('xterm')
+    }
+    parameters {
+        string(
+                name: 'AGENT_LABEL',
+                defaultValue: '',
+                description: 'Jenkins node label'
+        )
+        string(
+                name: 'FILTER_ID',
+                defaultValue: '',
+                description: 'PractiTest Filter ID of tests to execute'
+        )
+        string(
+                name: 'PT_JSON_CONFIG',
+                defaultValue: '',
+                description: 'JSON file name which contains all PractiTest configurations of a specific project'
+        )
+        string(
+                name: 'PROJECT_NAME',
+                defaultValue: '',
+                description: 'Practitest Project Name'
+        )
+	}
+    stages {
+        stage ('Update ini files with secret credentials from AWS') {
+            agent {label "${params.AGENT_LABEL}"}
+            steps {
+                dir("${env.WORKSPACE}") {
+                    checkout([$class                           : 'GitSCM',
+                              doGenerateSubmoduleConfigurations: false,
+                              userRemoteConfigs                : [[credentialsId: 'ovp-jenkins', url: 'https://github.com/kaltura/automation-api-tests.git']]]
+                    )
+                    script {
+                        currentBuild.displayName = "#${BUILD_NUMBER}-${params.AGENT_LABEL}"
+                        bat '.\\jenkins\\AWSGetParams.bat'
+                    }
+                }
+            }
+        }
+        stage ('Get tests to execute from PractiTest - testToExecute.csv') {
+            agent {label "${params.AGENT_LABEL}"}
+            steps {
+                dir("${env.WORKSPACE}") {
+                    script {
+						bat "python .\\jenkins\\practitest_${params.PROJECT_NAME}.py .\\integrations\\PractiTest\\${params.PT_JSON_CONFIG} ${params.FILTER_ID}"
+                    }
+                }
+            }
+        }
+        stage ('Execute tests') {
+            agent {label "${params.AGENT_LABEL}"}
+            steps {
+                dir("${env.WORKSPACE}") {
+                    script {
+                        bat "py.test -s --envfile .\\jenkins\\.env APITests\\TestsToExecute"
+                    }
+                }
+            }
+        }
+    }
+}
